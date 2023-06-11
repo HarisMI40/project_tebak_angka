@@ -1,0 +1,44 @@
+.main{
+    /* background-color: blue; */
+    padding : 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    /* background-color: aqua; */
+    width: 50%;
+}
+
+#display-container-angka{
+    font-size: 24px;
+    text-align: center;
+    /* background-color: rgba(72, 239, 89, 0.739); */
+    /* background-color: rgba(72, 239, 80, 0.739); */
+}
+
+
+
+.input-container {
+    /* background-color: red; */
+    max-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-container input{
+    width: 200px;
+    height: 25px;
+}
+
+.input-container button{
+    background-color: blue;
+    color : white;
+    border : 2px solid rgb(28, 28, 204);
+    padding: 5px;
+
+    /* margin-left : 50%; */
+}
